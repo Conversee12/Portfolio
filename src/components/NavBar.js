@@ -51,7 +51,7 @@ const NavBar = () => {
               <a href='#'>
                 <img src={navIcon2} alt="" />
               </a>
-              <a href='#'>
+              <a href='https://instagram.com/vasyl___c?igshid=YzgyMTM2MGM=' target={"_blank"}>
                 <img src={navIcon3} alt="" />
               </a>
             </div>

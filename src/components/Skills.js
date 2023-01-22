@@ -1,20 +1,17 @@
-import meter1 from "../assets/img/meter1.svg";
-import meter2 from "../assets/img/meter2.svg";
-import meter3 from "../assets/img/meter3.svg";
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
-import arrow1 from "../assets/img/arrow1.svg";
-import arrow2 from "../assets/img/arrow2.svg";
 import javascript from "../assets/img/javascript.jpg"
 import colorSharp from "../assets/img/color-sharp.png"
 import css from "../assets/img/css.jpg"
 import html from "../assets/img/html.jpg"
-import react from "../assets/img/react.jpg"
+import react from "../assets/img/react.png"
+import bootstrap from "../assets/img/bootstrap.png"
+import sass from "../assets/img/sass.png"
+import stdComponents from "../assets/img/styled-components.png"
 
 export const Skills = () => {
   const responsive = {
     superLargeDesktop: {
-      // the naming can be any, depends on you.
       breakpoint: { max: 4000, min: 3000 },
       items: 5
     },
@@ -39,23 +36,35 @@ export const Skills = () => {
           <div className="col-12">
             <div className="skill-bx wow zoomIn">
               <h2>Skills</h2>
-              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br></br> Lorem Ipsum has been the industry's standard dummy text.</p>
+              <p>I am ready to learn MORE</p>
               <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                 <div className="item">
-                  <img src={javascript} alt="Image" />
-                  <h5>Web Development</h5>
+                  <img className="img-skill" src={javascript} alt="Image" />
+                  <h5>JavaScript</h5>
                 </div>
                 <div className="item">
-                  <img src={css} alt="Image" />
-                  <h5>Brand Identity</h5>
+                  <img className="img-skill" src={css} alt="Image" />
+                  <h5>CSS3</h5>
                 </div>
                 <div className="item">
-                  <img src={html} alt="Image" />
-                  <h5>Logo Design</h5>
+                  <img className="img-skill" src={html} alt="Image" />
+                  <h5>HTML5</h5>
                 </div>
                 <div className="item">
-                  <img src={react} alt="Image" />
-                  <h5>Web Development</h5>
+                  <img className="img-skill" src={react} alt="Image" />
+                  <h5>React JS</h5>
+                </div>
+                <div className="item">
+                  <img className="img-skill" src={bootstrap} alt="Image" />
+                  <h5>Bootstrap</h5>
+                </div>
+                <div className="item">
+                  <img className="img-skill" src={sass} alt="Image" />
+                  <h5>SASS/SCSS</h5>
+                </div>
+                <div className="item">
+                  <img className="img-skill" src={stdComponents} alt="Image" />
+                  <h5>Styled Components</h5>
                 </div>
               </Carousel>
             </div>

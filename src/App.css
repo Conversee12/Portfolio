@@ -380,6 +380,11 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   z-index: -4;
 }
 
+.img-skill {
+  height: 100px;
+  width: 150px;
+  border-radius: 15%;
+}
 
 /************ Projects Css ************/
 .project {
@@ -487,6 +492,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   height: 100%;
 }
 
+.proj-imgbx img {
+  height: 250px;
+}
 .proj-txtx {
   position: absolute;
   text-align: center;
@@ -510,10 +518,13 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   line-height: 1.1em;
 }
 
-.proj-txtx span {
+.proj-link {
+  outline: none;
+  text-decoration: none;
   font-style: italic;
+  color:rgba(255, 255, 255, 1);
   font-weight: 400;
-  font-size: 15px;
+  font-size: 25px;
   letter-spacing: 0.8px;
 }
 
@@ -526,7 +537,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   z-index: -4;
 }
 
-/************ Projects Css ************/
+/************ Contact Css ************/
 .contact {
   background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
   padding: 60px 0 200px 0;

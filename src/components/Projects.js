@@ -1,8 +1,9 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
-import projImg1 from "../assets/img/project-img1.png";
-import projImg2 from "../assets/img/project-img2.png";
-import projImg3 from "../assets/img/project-img3.png";
+import projImg1 from "../assets/img/rhythm.jpg";
+import projImg2 from "../assets/img/friends app.jpg";
+import projImg3 from "../assets/img/MPG.jpg";
+import projImg4 from "../assets/img/arcade.jpg";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -11,34 +12,28 @@ export const Projects = () => {
 
   const projects = [
     {
-      title: "Business Startup",
+      title: "Rhythm Shope",
       description: "Design & Development",
       imgUrl: projImg1,
+      link: 'https://conversee12.github.io/Rhythm/',
     },
     {
-      title: "Business Startup",
+      title: "Friends App",
       description: "Design & Development",
       imgUrl: projImg2,
+      link: 'https://conversee12.github.io/Friends-APP/',
     },
     {
-      title: "Business Startup",
+      title: "Memory-Pair-Game",
       description: "Design & Development",
       imgUrl: projImg3,
+      link: 'https://conversee12.github.io/Memory-Pair-Game/',
     },
     {
-      title: "Business Startup",
+      title: "Arcade game",
       description: "Design & Development",
-      imgUrl: projImg1,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg2,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg3,
+      imgUrl: projImg4,
+      link: 'https://conversee12.github.io/frontend-nanodegree-arcade-game/',
     },
   ];
 
@@ -51,7 +46,7 @@ export const Projects = () => {
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn": ""}>
                 <h2>Projects</h2>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                <p>I am working on new projects, this portfolio is also being completed</p>
                 <Tab.Container id="projects-tabs" defaultActiveKey="first">
                   <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                     <Nav.Item>
@@ -80,10 +75,8 @@ export const Projects = () => {
                       </Row>
                     </Tab.Pane>
                     <Tab.Pane eventKey="section">
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
                     </Tab.Pane>
                     <Tab.Pane eventKey="third">
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
                     </Tab.Pane>
                   </Tab.Content>
                 </Tab.Container>

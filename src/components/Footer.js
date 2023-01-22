@@ -18,9 +18,9 @@ export const Footer = () => {
             <div className="social-icon">
               <a href="https://www.linkedin.com/in/vasyl-chaban-a80658215?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BwQW%2BcurmR623HU57VmFzHw%3D%3D" target={"_blank"}><img src={navIcon1} alt="Icon" /></a>
               <a href="#"><img src={navIcon2} alt="Icon" /></a>
-              <a href="#"><img src={navIcon3} alt="Icon" /></a>
+              <a href="https://instagram.com/vasyl___c?igshid=YzgyMTM2MGM="><img src={navIcon3} alt="Icon" /></a>
             </div>
-            <p>Copyright 2022. All Rights Reserved</p>
+            <p>Copyright 2023. All Rights Reserved</p>
           </Col>
         </Row>
       </Container>
